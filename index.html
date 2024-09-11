@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Nike ka website</title>
+</head>
+<body>
+    <div id="main">
+        <div id="home">
+        <nav class="navbar" id="navbar"> 
+            <a href="#home" id="logo"></a>
+            <div class="cntr-nav" id="cntr-nav">
+
+                <a href="#home">Home</a>
+                <a href="#product">Products</a>
+                <a href="#toprated">Top Rated</a>
+                <a href="#featured">Featured</a>
+            </div>
+            <a href="#" class="toggle-button" id="toggle-button"><i class="ri-menu-fill"></i></a> 
+        </nav>
+    </div>
+        <div class="one">
+            <h1>NIKE</h1>
+            <img id="tick" src="Assets/tick.png" alt="">
+            <img id="shoes" src="Assets/shoes.png" alt="">
+        </div>
+        <div class="two">
+            <div class="lft-two">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#e04428" d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z" transform="translate(100 100)" />
+                  </svg>
+            </div>
+            <div class="rght-two">
+                <h1>Nike Air Zoom 
+                    <br>Pegasus 39</h1>
+                <p>The RunRepeat Score of 86 highlights the exceptional performance of this daily trainer, which weighs just 261 grams and features a 10mm heel drop. Designed with neutral support, it's ideally suited for road terrain, offering the perfect balance of comfort and stability for everyday runs.</p>
+            </div>
+        </div>
+        <div class="three" id="product">
+            <div class="card">
+                <img id="Shoes2" src="Assets/shoes2.png" alt="">
+                <h1>Nike <br>Lunarglide 6</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <h1>Nike Air Zoom <br>Pegasus 39</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card">
+                <img id="Shoes3" src="Assets/shoes3.png" alt="">
+                <h1>Nike Air Zoom <br>Structure 21</h1>
+                <button>Buy Now</button>
+            </div>
+        </div>
+ <!-- TOP RATED SALES----------------- -->
+        <div class="container" id="toprated">
+            <h1>Top Rated Sales</h1>
+            <div class="scroll-container">
+                <button class="arrow arrow-left" onclick="scrollToLeft()">&#8249;</button>
+                <div class="shoe-grid">
+                    <div class="shoe-card" style="background: linear-gradient(135deg, #1772e1, #00bfff);">
+                        <img src="Assets/Nike Air Low.png" alt="Nike Air Low Premium">
+                        <p class="price">$150</p>
+                        <h2>Nike LeBron Series</h2>
+                        <p>MEN Running Shoes</p>                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #17e128b9, #00ff77);">
+                        <img src="Assets/Nike Air Force.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Air Jordan Series</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #e11717b9, #ff2200);">
+                        <img src="Assets/Nike Addapt.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike KD Series</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #ff8d02b9, #ffb700);">
+                        <img src="Assets/Nike Air Premi.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Kyrie Series</h2>
+                        <p>MEN Running Shoes</p>                        
+                        <button>Buy Now</button>
+                    </div>
+                
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #391b00b9, #ffea00);">
+                        <img src="Assets/Nike Adapt.png" alt="Nike Air Low Premium">
+                        <p class="price">$150</p>
+                        <h2>Nike PG Series</h2>
+                        <p>MEN Running Shoes</p>                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg,#00ccff ,#02d9edb9, );">
+                        <img src="Assets/Air Jordan.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Air Max</h2>
+                        <p>MEN Running Shoes</p>                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #f5bd03b9, #ffea00);">
+                        <img src="Assets/Nike Multi Smart .png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Air Alphafly</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #5b2a00b9, #d88c29);">
+                        <img src="Assets/Nike Jordan.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Air Structure</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #002c9be3, #2b3ecf);">
+                        <img src="Assets/Nike Old Max.png" alt="Nike Air Low Premium">
+                        <p class="price">$150</p>
+                        <h2>Nike Air Pegasus</h2>
+                        <p>MEN Running Shoes</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #096e00b9, #00ff00);">
+                        <img src="Assets/Nike Lime Jordan.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike Lime Jordan</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #0d001ab9, #0d001ab9);">
+                        <img src="Assets/Nike Air Black.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike React Infinity</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="shoe-card" style= "background: linear-gradient(360deg, #120039b9, #2d66f7);">
+                        <img src="Assets/Nike Zoom.png" alt="Nike Air Force Green">
+                        <p class="price">$150</p>
+                        <h2>Nike SuperRep Series</h2>
+                        <p>MEN Running Shoes</p>
+                        
+                        <button>Buy Now</button>
+                    </div>
+    
+                  
+                    <!-- Add other shoe cards here --> 
+                </div>
+                <button class="arrow arrow-right" onclick="scrollToRight()">&#8250;</button>
+            </div>
+        </div>
+
+        <div class="Feature" id="featured">
+            <div class="text-content">
+                <h1>FEATURED</h1>
+                <h2>NIKE RUNNING SHOES MAN</h2>
+                <p>Step into brilliance with Nike Air Lancing Sneakers. This redefined basketball OG combines timeless durability with a contemporary edge. Enjoy impeccable craftsmanship, clean aesthetics, and a touch of flair that ensures you make an unforgettable impression..</p>
+                <a href="#" class="btn">Explore More</a>
+            </div>
+            <div class="sneaker-image">
+                <img src="Assets/shoesnikes.png" alt="Nike Sneakers Air Lancing Shoes">
+            </div>
+        </div>
+
+        <div class="shoes-section">
+            <h1 class="shoes-title">Popular Shoes</h1>
+            <p class="shoes-subtitle">Explore our wide collection of top-quality shoes, designed for both style and comfort.</p>
+            
+            <div class="shoes-container">
+              <div class="shoe-box">
+                <img src="Assets/footer/cc.webp" alt="Running Shoes">
+                <div class="shoe-content">
+                  <h2 class="shoe-title">Running Shoes</h2>
+                  <div class="shoe-tags">
+                    <span>Lightweight</span>
+                    <span>Breathable</span>
+                  </div>
+                  <div class="shoe-price">$99.99</div>
+                </div>
+                <div class="shoe-arrow">&gt;</div>
+              </div>
+          
+              <div class="shoe-box">
+                <img src="Assets/footer/bb.webp" alt="Basketball Shoes">
+                <div class="shoe-content">
+                  <h2 class="shoe-title">Basketball Shoes</h2>
+                  <div class="shoe-tags">
+                    <span>High Ankle Support</span>
+                    <span>Non-Slip Grip</span>
+                  </div>
+                  <div class="shoe-price">$129.99</div>
+                </div>
+                <div class="shoe-arrow">&gt;</div>
+              </div>
+          
+              <div class="shoe-box">
+                <img src="Assets/footer/aa.webp" alt="Casual Sneakers">
+                <div class="shoe-content">
+                  <h2 class="shoe-title">Casual Sneakers</h2>
+                  <div class="shoe-tags">
+                    <span>Streetwear</span>
+                    <span>Trendy</span>
+                  </div>
+                  <div class="shoe-price">$79.99</div>
+                </div>
+                <div class="shoe-arrow">&gt;</div>
+              </div>
+          
+              <div class="shoe-box">
+                <img src="Assets/footer/ff.webp" alt="Formal Shoes">
+                <div class="shoe-content">
+                  <h2 class="shoe-title">Classic Shoes</h2>
+                  <div class="shoe-tags">
+                    <span>Leather</span>
+                    <span>Durable</span>
+                  </div>
+                  <div class="shoe-price">$149.99</div>
+                </div>
+                <div class="shoe-arrow">&gt;</div>
+              </div>
+            </div>
+          </div>
+    <div class="footer">
+        <div class="column">
+            <h3>About Nike</h3>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Investors</a>
+            <a href="#">Purpose</a>
+            <a href="#">Sustainability</a>
+        </div>
+        <div class="column">
+            <h3>Get Help</h3>
+            <a href="#">Order Status</a>
+            <a href="#">Shipping & Delivery</a>
+            <a href="#">Payment Options</a>
+            <a href="#">Gift Card Balance</a>
+            <a href="#">Contact Us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="column">
+            <h3>Company</h3>
+            <a href="#">Gift Cards</a>
+            <a href="#">Promotions</a>
+            <a href="#">Find A Store</a>
+            <a href="#">Signup</a>
+            <a href="#">Nike Journal</a>
+            <a href="#">Send Us Feedback</a>
+        </div>
+        <div class="copyright">
+            Copyright © All Reserved Rights <strong> 2024</strong>
+            </div>
+        </div>
+</div>
+
+        
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
